@@ -13,7 +13,7 @@ min-width:300px;
 h1
 {
 text-align:center;
-font-size:24px;
+font-size:60px;
 }
 
 h4
@@ -27,10 +27,10 @@ bottom:5px;
 
 .volbutton {
 	display: block;
-	height: 17.5%;
+	height: 27.5%;
 	width: 25%;
 	background: rgb(65,65,65);
-	font-size:16px;
+	font-size:40px;
 	font-family:"Arial Black", Gadget, sans-serif;
 	text-align: center;
 	border: 2px solid rgb(55,55,55);
@@ -46,10 +46,10 @@ a.volbutton {
 
 .skipbutton {
 	display: block;
-	height: 7.5%;
+	height: 12.5%;
 	width: 25%;
 	background: rgb(65,65,65);
-	font-size:16px;
+	font-size:40px;
 	font-family:"Arial Black", Gadget, sans-serif;
 	text-align: center;
 	border: 2px solid rgb(55,55,55);
@@ -65,10 +65,10 @@ a.skipbutton {
 
 .chbutton {
 	display: block;
-	height: 7.5%;
+	height: 12.5%;
 	width: 60%;
 	background: rgb(65,65,65);
-	font-size:16px;
+	font-size:40px;
 	font-family:"Arial Black", Gadget, sans-serif;
 	text-align: center;
 	border: 2px solid rgb(55,55,55);
@@ -92,19 +92,19 @@ a.chbutton {
 
 <a href="http://google.com/" style="position:absolute; right:5%; top:20%;" class="volbutton">+</a> 
 
-<a href="http://google.com/" style="position:absolute; right:5%; top:40%;" class="volbutton">-</a>
+<a href="http://google.com/" style="position:absolute; right:5%; top:50%;" class="volbutton">-</a>
 
-<a href="http://google.com/" style="position:absolute; right:5%; top:60%;" class="skipbutton">SKIP</a>
+<a href="http://google.com/" style="position:absolute; right:5%; top:80%;" class="skipbutton">SKIP</a>
 
 <a href="http://google.com/" style="position:absolute; top:20%; left:5%" class="chbutton">1 - Classic Rock</a> 
 
-<a href="http://google.com/" class="chbutton" style="position:absolute; top:30%; left:5%;">2 - Classical</a>
+<a href="http://google.com/" class="chbutton" style="position:absolute; top:35%; left:5%;">2 - Classical</a>
 
-<a href="http://google.com/" class="chbutton" style="position:absolute; top:40%;left:5%;">3 - Club/Dance</a> 
+<a href="http://google.com/" class="chbutton" style="position:absolute; top:50%;left:5%;">3 - Club/Dance</a> 
 
-<a href="http://google.com/" class="chbutton" style="position:absolute; top:50%; left:5%;">4 - Rap</a>
+<a href="http://google.com/" class="chbutton" style="position:absolute; top:65%; left:5%;">4 - Rap</a>
 
-<a href="http://google.com/" style="position:absolute; top:60%; left:5%" class="chbutton">5 - Today's Hits</a> 
+<a href="http://google.com/" style="position:absolute; top:80%; left:5%" class="chbutton">5 - Today's Hits</a> 
 
 
 <h4>
