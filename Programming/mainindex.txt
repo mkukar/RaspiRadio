@@ -1,3 +1,10 @@
+<?php
+#Runs piano bar if ON button is pressed
+if ($_GET['on']) {
+	exec("pianobar")
+}
+?>
+
 <html>
 <head>
 <style>
@@ -94,7 +101,7 @@ a.chbutton {
 
 <a href="http://google.com/" style="position:absolute; right:5%; top:50%;" class="volbutton">-</a>
 
-<a href="?on=true" style="position:absolute; right:5%; top:80%;" class="skipbutton">ON(temp)</a>
+<a href="?on" type="submit" style="position:absolute; right:5%; top:80%;" class="skipbutton">ON(temp)</a>
 
 <a href="http://google.com/" style="position:absolute; top:20%; left:5%" class="chbutton">1 - Classic Rock</a> 
 
@@ -106,13 +113,6 @@ a.chbutton {
 
 <a href="http://google.com/" style="position:absolute; top:80%; left:5%" class="chbutton">5 - Today's Hits</a> 
 
-
-<?php
-#Runs piano bar if ON button is pressed
-if ($_GET['on']) {
-	shell_exec("pianobar")
-}
-?>
 
 <h4>
 More info at github.com/mkukar/RaspiRadio <br>
