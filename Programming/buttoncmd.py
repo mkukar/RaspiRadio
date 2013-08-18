@@ -16,13 +16,13 @@ while True:
 	if (GPIO.input(22)):
 		if (GPIO.input(23)):
 			os.system("python /home/pi/RaspiRadio/Programming/writelcd.py SHUTTING DOWN")
-			os.system("echo SHUTDOWN CMD HERE")
+			os.system("echo shutdown -h now")
 		else:
-			os.system("echo 'p' >> /home/pi/.config/pianobar/ctl")
+			os.system("echo 'p' >> /home/pi/.config/pianobar/ctl &")
 	elif (GPIO.input(23)):
 		if (GPIO.input(22)):
 			os.system("echo /home/pi/RaspiRadio/Programming/writelcd.py SHUTTING DOWN")
-			#shutdown cmd here
-		else:
-			os.system("bash /home/pi/RaspiRadio/Programming/pianobarpwr.sh")
+			os.system("echo shutdown -h now")
+		else: #MUST BE PI USER (NOT SUDO) IN ORDER TO RUN CORRECTLY
+			os.system("sudo -u pi bash /home/pi/RaspiRadio/Programming/pianobarpwr.sh &")
 	time.sleep(0.1)
