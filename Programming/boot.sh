@@ -5,4 +5,4 @@
 python ~/RaspiRadio/Programming/writelcd.py 'Raspi Radio v1.0' 10.0.1.47
 
 #Opens buttoncmd to enable front buttons
-sudo python buttoncmd.py
+sudo python ~/RaspiRadio/Programming/buttoncmd.py &
