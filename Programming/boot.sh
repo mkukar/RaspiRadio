@@ -1,5 +1,4 @@
 #!/bin/bash
-# /etc/init.d/myboot.sh
 
 ### BEGIN INIT INFO
 # Provides:          RaspiRadio_Boot
@@ -11,8 +10,7 @@
 # Description:       Simple script that sets up the RaspiRadio at boot
 ### END INIT INFO
 
-#MOVE THIS FILE TO /etc/init.d/ FOR IT TO WORK ON BOOT
-#RENAME TO myboot.sh
+#MOVE THIS FILE TO /etc/rc.local
 
 #writes to LCD for easy SSH
 python ~/RaspiRadio/Programming/writelcd.py 'Raspi Radio v1.0' 10.0.1.47
